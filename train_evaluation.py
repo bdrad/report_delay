@@ -204,9 +204,10 @@ def main(args):
                       'Body Part Label numerical',
                       'PGY',
                       'Point of Care',
-                      'Exam Code']
+                      'Exam Code',
+                      'Time of Day Label numerical']
 
-    x_num_features = ['Time of Day Label numerical']
+    x_num_features = []
 
 
     # fit encoder
